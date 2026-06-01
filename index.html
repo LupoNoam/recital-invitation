@@ -56,7 +56,6 @@
             box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
         }
 
-        /* Elegant frame for the pianist name */
         .pianist-frame {
             border: 2px solid #d4af37;
             padding: 8px 24px;
@@ -81,7 +80,6 @@
     <div id="home-page" class="page active pt-6">
         <div class="card-bg w-full rounded-2xl shadow-2xl overflow-hidden border-4 border-[#d4af37] flex flex-col">
             
-            <!-- Header Section -->
             <div class="bg-[#1a202c] p-10 text-center relative overflow-hidden">
                 <div class="absolute top-0 left-0 opacity-10 transform -translate-x-4 -translate-y-4">
                     <i class="fa-solid fa-music text-8xl text-[#d4af37]"></i>
@@ -92,7 +90,6 @@
                 <div class="h-1 w-20 bg-[#d4af37] mx-auto rounded-full relative z-10"></div>
             </div>
 
-            <!-- Content Section -->
             <div class="p-8 text-center space-y-6 flex-grow">
                 <div class="space-y-3">
                     <h2 class="text-5xl font-extrabold text-slate-800 tracking-tight">לופו נעם</h2>
@@ -120,7 +117,6 @@
                     </div>
                 </div>
 
-                <!-- Date and Location Section -->
                 <div class="space-y-4 py-4 border-t border-b border-slate-200 text-right">
                     <div class="flex items-center justify-between gap-4 text-slate-700">
                         <div class="flex items-center gap-4">
@@ -148,7 +144,8 @@
                                 <p class="text-sm font-medium text-slate-500">קניון עופר לב חדרה. רוטשילד 40, חדרה</p>
                             </div>
                         </div>
-                        <a href="https://waze.com/ul?q=קניון+עופר+לב+חדרה" target="_blank" class="bg-blue-500 p-3 rounded-xl text-white shadow-lg hover:bg-blue-600 transition-colors flex items-center justify-center">
+                        <!-- Waze redirection link updated exactly as provided -->
+                        <a href="https://ul.waze.com/ul?venue_id=22872388.228854956.3385&overview=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" class="bg-blue-500 p-3 rounded-xl text-white shadow-lg hover:bg-blue-600 transition-colors flex items-center justify-center">
                             <i class="fa-brands fa-waze text-2xl"></i>
                         </a>
                     </div>
@@ -169,7 +166,6 @@
                     </p>
                 </div>
 
-                <!-- Institutional logos -->
                 <div class="pt-6 mt-4 border-t border-slate-200">
                     <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-4 text-center">בשיתוף עם:</p>
                     <div class="flex items-center justify-center gap-8 logo-container px-4">
@@ -288,7 +284,7 @@
             const event = {
                 title: "רסיטל - לופו נעם",
                 description: "רסיטל טרומבון בקונסרבטוריון חדרה במעמד ראש העיר",
-                location: "קונסרבטוריון חדרה, קניון לב חדרה, קומה 2-",
+                location: "קונסרבטוריון חדרה, קניון עופר לב חדרה, קומה 2-",
                 start: "20260630T193000",
                 end: "20260630T213000"
             };
